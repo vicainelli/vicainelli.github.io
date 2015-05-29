@@ -1,0 +1,20 @@
+{
+	"data":[
+		{
+			"title": "Mozilla Developer Network",
+			"uri": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+		},
+		{
+			"title": "Codeacademy",
+			"uri": "http://www.codecademy.com/en/tracks/web"
+		},
+		{
+			"title": "HTML Dog",
+			"uri": "http://www.htmldog.com/guides/css/beginner/"
+		},
+		{
+			"title": "Tutorials Poin",
+			"uri": "http://www.tutorialspoint.com/css/"
+		}
+	]
+}
