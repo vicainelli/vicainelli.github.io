@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Lato, "Open Sans", Arial, sans-serif;
   font-size: 120%;
@@ -12,6 +16,11 @@ body {
 a {
   color: #fff;
   display: block;
+  background: rgba(0,0,0,0.15);
+  padding: 10px 15px;
+  margin: 5px 0;
+  text-decoration: none;
+  border-radius: 3px;
 }
 
 @media  (min-width: 520px) {
