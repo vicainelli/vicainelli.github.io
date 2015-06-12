@@ -1,5 +1,6 @@
 body {
   font-family: Lato, "Open Sans", Arial, sans-serif;
+  font-size: 120%;
   color: #fff;
   background: -webkit-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
   background:    -moz-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
@@ -10,4 +11,20 @@ body {
 
 a {
   color: #fff;
+  display: block;
+}
+
+@media  (min-width: 520px) {
+  body {
+    font-size: 110%;
+  }
+  a {
+    display: inline-block;
+  }
+}
+
+@media  (min-width: 960px) {
+  body {
+    font-size: 100%;
+  }
 }
