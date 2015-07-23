@@ -14,12 +14,16 @@ body {
 }
 
 a {
+  color: #FFD521;
+  text-decoration: none;
+}
+
+nav a {
   color: #fff;
   display: block;
   background: rgba(0,0,0,0.15);
   padding: 10px 15px;
   margin: 5px 0;
-  text-decoration: none;
   border-radius: 3px;
 }
 
@@ -36,4 +40,10 @@ a {
   body {
     font-size: 100%;
   }
+}
+
+
+.text-thin {
+  font-weight: 300;
+}
 }
