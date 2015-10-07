@@ -149,18 +149,19 @@ section {
 
 .education-institution {
 	margin: 0;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 600;
+	color: #4A4A4A;
 }
 
 .education-container p {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
 	margin: 0;
 }
 
 p.graduation-date {
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 400;
 	font-style: italic;
 }
