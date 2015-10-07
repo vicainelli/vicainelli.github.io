@@ -289,7 +289,7 @@ section {
 	width: 100%;
 	background-color: #fff;
 	border: 1px solid #06558D;
-	margin: 5px 0 20px;
+	margin: 5px 0 0;
 }
 
 .skill-bar-level {
@@ -305,10 +305,6 @@ section {
 
 /* Experience
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
-.experience-container {
-	margin-bottom: 20px;
-}
-
 .experience-position {
 	margin: 0;
 	font-size: 18px;
@@ -335,10 +331,6 @@ section {
 
 /* Education
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
-.education-container {
-	margin-bottom: 20px;
-}
-
 .education-institution {
 	margin: 0;
 	font-size: 18px;
@@ -379,8 +371,3 @@ p.graduation-date {
 	color: #fff;
 	margin-right: 10px;
 }
-
-
-
-
-
