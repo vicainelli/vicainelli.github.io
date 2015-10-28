@@ -331,7 +331,8 @@ section {
 
 /* Education
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
-.education-container {
+.education-container,
+.experience-container {
 	margin: 0 0 20px;
 }
 
