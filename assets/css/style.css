@@ -1,4 +1,6 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -12,10 +14,10 @@ body {
   font-size: 120%;
   color: #fff;
   background: -webkit-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
-  background:    -moz-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
-  background:     -ms-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
-  background:      -o-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
-  background:         linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
+  background: -moz-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
+  background: -ms-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
+  background: -o-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
+  background: linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%);
 }
 
 a {
@@ -26,7 +28,7 @@ a {
 nav a {
   color: #fff;
   display: block;
-  background: rgba(0,0,0,0.15);
+  background: rgba(0, 0, 0, 0.15);
   padding: 10px 15px;
   margin: 5px 0;
   border-radius: 3px;
@@ -35,10 +37,10 @@ nav a {
 }
 
 nav a:hover {
-	background: rgba(0,0,0,0.65);
+  background: rgba(0, 0, 0, 0.65);
 }
 
-@media  (min-width: 520px) {
+@media (min-width: 520px) {
   body {
     font-size: 110%;
   }
@@ -47,7 +49,7 @@ nav a:hover {
   }
 }
 
-@media  (min-width: 960px) {
+@media (min-width: 960px) {
   body {
     font-size: 100%;
   }
