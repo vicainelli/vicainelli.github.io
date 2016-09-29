@@ -2,6 +2,10 @@
 a {
 	color: #2b96e2;
 }
+* {
+  -webkit-transition: all 0.3s ease;
+  transition: all .3s ease;
+}
 /*  Grid
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 .row {
