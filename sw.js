@@ -1,6 +1,6 @@
 /*
  *
- *  Training Center
+ *  Vinicius Cainelli
  */
 
 // Version 0.1
@@ -14,7 +14,7 @@ self.addEventListener('install', e => {
         `/`,
         `/index.html?timestamp=${timeStamp}`,
         `/resume/index.html?timestamp=${timeStamp}`,
-        `/assets/css/style.min.css?timestamp=${timeStamp}`
+        `/assets/css/style.min.css?timestamp=${timeStamp}`,
         `/assets/css/style-resume.min.css?timestamp=${timeStamp}`
       ])
       .then(() => self.skipWaiting());
