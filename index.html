@@ -56,10 +56,21 @@
   <h1>Hi, I am Vinicius</h1>
   <p>I am a Front End Developer, who working in <a href="https://www.mandae.com.br/" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'Go to Mandaê');">company</a> that simplifies the way Brazilians ship their stuff.</p>
   <nav>
-    <a href="https://github.com/vicainelli/" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'Go to GitHub');">GitHub</a>
+    <a href="https://github.com/vicainelli/" rel="noopener" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'Go to GitHub');">GitHub</a>
     <a href="./resume" target="_self" onclick="ga('send', 'event', 'button', 'click', 'Go to Resume');"></i> Resume</a>
-    <a href="https://www.behance.net/viniciuscainelli" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'Go to Behance');">Behance</a>
-    <a href="https://linkedin.com/in/vicainelli" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'Go to Linkedin');">Linkedin</a>
+    <a href="https://www.behance.net/viniciuscainelli" rel="noopener" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'Go to Behance');">Behance</a>
+    <a href="https://linkedin.com/in/vicainelli" rel="noopener" target="_blank" onclick="ga('send', 'event', 'button', 'click', 'Go to Linkedin');">Linkedin</a>
   </nav>
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js', { scope: '/' })
+      .then(function(registration) {
+        console.log('Service Worker Registered');
+      });
+    navigator.serviceWorker.ready.then(function(registration) {
+      console.log('Service Worker Ready');
+    });
+  }
+</script>
 </body>
 </html>
