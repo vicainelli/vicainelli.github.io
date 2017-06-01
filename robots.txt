@@ -1,0 +1,3 @@
+User-agent: * 
+Disallow: 
+Sitemap: https://vicainelli.github.io/sitemap.xml
