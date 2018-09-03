@@ -1,0 +1,52 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-transition: all 0.3s ease;
+  transition: all .3s ease;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 1em 0 2em;
+  padding: 0;
+}
+
+ul li {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  background: rgba(0, 0, 0, 0.15);
+  padding: .8em 1.5em;
+  margin: 5px 0;
+  border-radius: 3px;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+@media (min-width: 520px) {
+  body {
+    font-size: 110%;
+  }
+  nav a {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 960px) {
+  body {
+    font-size: 100%;
+  }
+}
