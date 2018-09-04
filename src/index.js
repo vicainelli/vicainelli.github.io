@@ -1,1 +1,1 @@
-console.log('Webpack is amazing');
+import css from './css/resume.css';
